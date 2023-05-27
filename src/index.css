@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root{
+/*  */
+font-family: 'Azonix';
+}
+
+@font-face {
+    font-family: 'Azonix';
+    src: url('../Font/Azonix.ttf');
+  }
+  
+
+.nav{
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 35%, 85% 35%, 80% 50%, 50% 50%, 0 50%); */
+    clip-path: polygon(0% 40%, 40% 40%, 5% 10%, 20% 55%, 100% 55%, 100% 0%, 0% 0%);
+    background-color: #55070e;
+}
+  
+  
+  
+  
+  
