@@ -23,10 +23,10 @@ const Navbar = () => {
     //   </div>
     // </section>
     <>
-      <nav className="px-2 py-5 flex items-center gap-3">
-        <span className="text-4xl font-bold">meteorerr</span>
+      <nav className="px-2 py-5 flex flex-col md:flex-row items-center gap-3">
+        <span className="text-3xl md:text-5xl font-bold">meteorerr</span>
         <div className="h-1 w-full bg-black"></div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center border-b-2 border-black md:border-0">
           <button className="btn btn-ghost btn-sm">login</button>/
           <button className="btn btn-ghost btn-sm">Signin</button>
         </div>
