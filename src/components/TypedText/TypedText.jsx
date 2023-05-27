@@ -1,4 +1,5 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 import Typed from "typed.js";
 
 const TypedText = () => {
