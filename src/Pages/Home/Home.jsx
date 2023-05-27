@@ -1,5 +1,6 @@
 import BannerSlider from "../../components/BannerSlider/BannerSlider";
 import HeadLineSlider from "../../components/HeadLineSlider/HeadLineSlider";
+import Footer from "../../components/Shared/Footer";
 import TypedText from "../../components/TypedText/TypedText";
 import Shop from "./Shop/Shop";
 
@@ -11,6 +12,7 @@ const Home = () => {
       <TypedText />
       <HeadLineSlider />
       <Shop></Shop>
+      <Footer />
     </div>
   );
 };
